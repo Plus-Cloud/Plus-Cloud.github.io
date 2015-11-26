@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Tyree w</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+<script src="jquery.js"></script>
+</head>
+
+<body>
+
+
+  <script src="jquery-scrollto.js"></script>
+
+
+
+  <nav>
+  <ul>
+    <li><a href="#" class="head" onclick="$('#group1').ScrollTo({duration: 2000,
+    easing: 'linear'});">Tyree W</a></li>
+    <li><a href="#" class="whowhatwherelinks"  onclick="$('#group2').ScrollTo({duration: 2000,
+    easing: 'linear'});">About</a></li>
+    <li><a href="#" class="whowhatwherelinks"  onclick="$('#group3').ScrollTo({duration: 2000,
+    easing: 'linear'});">Websites</a></li>
+    <li><a href="#" class="whowhatwherelinks" onclick="$('#group7').ScrollTo({duration: 2000,
+    easing: 'linear'});">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+  <div class="parallax">
+    <div id="group1" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title"><h1 class="pagetitle">Hello World!</h1><p class="cwhite">Welcome to my portfolio</p>
+          <div id="whowhatwhere">
+        <div>  <a href="#" class="whowhatwherelinks" onclick="$('#group2').ScrollTo({duration: 2000,
+        easing: 'linear'});">Who</a><p> am i?</p> </div>
+        <div>  <a href="#" class="whowhatwherelinks" onclick="$('#group3').ScrollTo({duration: 2000,
+        easing: 'linear'});">What</a><p> do i do?</p></div>
+        <div>  <a href="#" class="whowhatwherelinks">Where</a><p> to find me</p></div>
+      </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div id="group2" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title"><h1 class="pagetitle">Who am I?</h1><p class="cwhite pagedesc">My name is Tyree Wilmer.<br>I am Web Designer and Developer.<br>Over the years of everyday practice, i have developed experiences in html, css, php, ajax and javascript.
+i focus on creating clean and unique design.</p></div>
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+        <div class="title"></div>
+      </div>
+    </div>
+    <div id="group3" class="parallax__group">
+
+      <div class="parallax__layer parallax__layer--base">
+        <div id="slide-window">
+
+ <ol id="slides" start="1">
+
+   <li class="slide color-0 alive" data-title="test1" style="background-image:url('images/websites/drawhere.jpg');"></li>
+
+   <li class="slide color-1" data-title="test2" style="background-image:url('images/websites/savoy.jpg');"></li>
+
+   <li class="slide color-2" data-title="test3" style="background-image:url('images/websites/whatsthedate.jpg');"></li>
+
+   <li class="slide color-3" data-title="test4" style="background-image:url('images/websites/animg.jpg');"></li>
+
+   <li class="slide color-4" data-title="test5" style="background-image:url('images/websites/tcloud.jpg');"></li>
+
+   <li class="slide color-5" data-title="test6" style="background-image:url('images/websites/instaweb.jpg');"></li>
+
+ </ol>
+
+ <span class="nav fa fa-chevron-left fa-3x" id="left"></span>
+ <span class="nav fa fa-chevron-right fa-3x" id="right"></span>
+
+ <div id="credit"><h2 class="pagetitle">My Websites</h2><br>Slide No.<span id="count">1</span></div>
+
+</div>
+      </div>
+    </div>
+
+    <div id="group4" class="parallax__group">
+
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title"><h1 class="pagetitle where">Where to find me</h1>
+          <div id="contact">
+
+<a class="fa fa-facebook socialmedia" href="#"></a>
+
+<a class="fa fa-envelope socialmedia" href="#"></a>
+
+<a class="fa fa-twitter socialmedia" href="#"></a>
+
+<a class="fa fa-linkedin socialmedia" href="#"></a>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <footer><p>Created by Tyree</p></footer>
+
+
+<script src="slider.js"></script>
+
+
+</body></html>
